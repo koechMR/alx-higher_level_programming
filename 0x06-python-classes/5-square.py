@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 
-"""Define a class"""
+"""Define Square"""
 
 
 class Square:
-    """Rep a square"""
+    """Represents a square"""
 
     def __init__(self, size):
-        """Init new square.
+        """Init new square
 
         Args:
-            size (int): size of new square
+            size (int): size of the new square
         """
         self.size = size
 
@@ -31,7 +31,7 @@ class Square:
         return (self.__size * self.__size)
 
     def my_print(self):
-        """Print the square with # character."""
+        """Print square with the # character"""
         for a in range(0, self.__size):
             [print("#", end="") for b in range(self.__size)]
             print("")
