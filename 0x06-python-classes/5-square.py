@@ -2,26 +2,44 @@
 
 class Square:
     """
+<<<<<<< HEAD
     Square class represents
+=======
+    Square class represents a square.
+
+    Attributes:
+        __size (int):
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
     """
 
     def __init__(self, size=0):
         """
+<<<<<<< HEAD
         Init
+=======
+        Initializes a Square instance.
+
+        Args:
+            size (int):
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
         """
         self.size = size
 
     @property
     def size(self):
         """
+<<<<<<< HEAD
         Getter method
+=======
+        Getter method to retrieve
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
         """
         return self.__size
 
     @size.setter
     def size(self, value):
         """
-        Setter method to set the size of the square.
+        Setter method to set
 
         Args:
             value (int):
@@ -34,7 +52,11 @@ class Square:
 
     def area(self):
         """
+<<<<<<< HEAD
         Calculates the area
+=======
+        Calculates the area of the square.
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
         """
         return self.__size ** 2
 

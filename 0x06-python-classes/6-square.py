@@ -2,12 +2,26 @@
 
 class Square:
     """
+<<<<<<< HEAD
     Square class represents a square
+=======
+    Square class
+
+    Attributes:
+        __size (int):
+        __position (tuple):
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
     """
 
     def __init__(self, size=0, position=(0, 0)):
         """
         Initializes a Square
+<<<<<<< HEAD
+=======
+
+        Args:
+            size (int):
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
         """
         self.size = size
         self.position = position
@@ -15,14 +29,28 @@ class Square:
     @property
     def size(self):
         """
+<<<<<<< HEAD
         Getter method
+=======
+        Getter method.
+
+        Returns:
+            int: The size
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
         """
         return self.__size
 
     @size.setter
     def size(self, value):
         """
+<<<<<<< HEAD
         Setter method to set the size
+=======
+        Setter method
+
+        Args:
+            value (int):
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
         """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
@@ -33,14 +61,25 @@ class Square:
     @property
     def position(self):
         """
+<<<<<<< HEAD
         Getter method to retrieve the position
+=======
+        Getter method
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
         """
         return self.__position
 
     @position.setter
     def position(self, value):
         """
+<<<<<<< HEAD
         Setter method to set the position
+=======
+        Setter method to set
+
+        Args:
+            value (tuple):
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
         """
         if not isinstance(value, tuple) or len(value) != 2:
             raise TypeError("position must be a tuple of 2 positive integers")
@@ -56,7 +95,11 @@ class Square:
 
     def my_print(self):
         """
+<<<<<<< HEAD
         Prints the square using
+=======
+        Prints the square
+>>>>>>> 372900be2ac24fe63bf060dd11ba60dec6853653
         """
         if self.__size == 0:
             print()
