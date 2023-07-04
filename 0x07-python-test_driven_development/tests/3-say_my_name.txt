@@ -1,0 +1,33 @@
+"3-say_my_name.txt"
+
+"""
+This file contains test cases for the say_my_name function.
+"""
+
+# Test case 1: First name and last name provided
+>>> say_my_name("John", "Smith")
+My name is John Smith
+
+# Test case 2: Only first name provided
+>>> say_my_name("Walter")
+My name is Walter 
+
+# Test case 3: Empty first name and last name (should raise TypeError)
+>>> say_my_name("", "")
+Traceback (most recent call last):
+    ...
+TypeError: first_name must be a string
+
+# Test case 4: Non-string first name (should raise TypeError)
+>>> say_my_name(12, "White")
+Traceback (most recent call last):
+    ...
+TypeError: first_name must be a string
+
+# Test case 5: Non-string last name (should raise TypeError)
+>>> say_my_name("John", 42)
+Traceback (most recent call last):
+    ...
+TypeError: last_name must be a string
+
+"""
