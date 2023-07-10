@@ -15,7 +15,6 @@ class Rectangle(BaseGeometry):
         Args:
             width (int): The width of the rectangle.
             height (int): The height of the rectangle.
-        
         Raises:
             TypeError: If width or height is not an integer.
             ValueError: If width or height is less than or equal to 0.
