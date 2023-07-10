@@ -3,5 +3,5 @@
 
 
 def lookup(obj):
-	"""retun the list of the object"""
-	return (dir(obj))
+    """retun the list of the object"""
+    return (dir(obj))
