@@ -11,5 +11,5 @@ def write_file(filename="", text=""):
     Returns:
         number of characters
     """
-    with open(filename, "w", encoding="utf-8") as f:
-        return f.write(text)
+    with open(filename, "w", encoding="utf-8") as x:
+        return x.write(text)

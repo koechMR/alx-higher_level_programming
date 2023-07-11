@@ -9,5 +9,5 @@ def append_write(filename="", text=""):
         filename (str): name of the file
         text (str): string to append to
     """
-    with open(filename, "a", encoding="utf-8") as f:
-        return f.write(text)
+    with open(filename, "a", encoding="utf-8") as x:
+        return x.write(text)
