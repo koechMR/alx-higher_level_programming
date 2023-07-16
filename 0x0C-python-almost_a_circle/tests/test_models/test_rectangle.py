@@ -7,9 +7,8 @@ import unittest
 from models.base import Base
 from models.rectangle import Rectangle
 
-
 class TestRectangle_instantiation(unittest.TestCase):
-    """Unittests for testing instantiation of the Rectangle class."""
+    """Unittests for testing instantiation"""
 
     def test_rectangle_is_base(self):
         self.assertIsInstance(Rectangle(10, 2), Base)

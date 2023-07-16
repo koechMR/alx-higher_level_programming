@@ -1,0 +1,103 @@
+2023-07-16 16:16:40.583 [info] Experiment 'pythonaacf' is active
+2023-07-16 16:16:40.583 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-07-16 16:16:40.583 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-07-16 16:16:40.583 [info] Experiment 'pythonSurveyNotificationcf' is active
+2023-07-16 16:16:40.583 [info] Experiment 'pythonTestAdapter' is active
+2023-07-16 16:16:40.694 [info] Test server listening.
+2023-07-16 16:16:40.708 [info] > conda info --json
+2023-07-16 16:16:41.406 [info] Found: /bin/python --> /bin/python2.7
+2023-07-16 16:16:41.407 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-16 16:16:41.407 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-16 16:16:41.407 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-16 16:16:41.407 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-16 16:16:41.407 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-16 16:16:41.408 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-16 16:16:41.408 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-16 16:16:41.408 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-16 16:16:41.408 [info] Found: /bin/python2 --> /bin/python2.7
+2023-07-16 16:16:41.418 [info] Found: /bin/python2.7 --> /bin/python2.7
+2023-07-16 16:16:41.420 [info] Found: /bin/python3 --> /bin/python3.8
+2023-07-16 16:16:41.422 [info] Found: /bin/python3.8 --> /bin/python3.8
+2023-07-16 16:16:41.556 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2023-07-16 16:16:41.556 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2023-07-16 16:16:41.556 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2023-07-16 16:16:41.557 [info] Found: /usr/bin/python3 --> /usr/bin/python3.8
+2023-07-16 16:16:41.557 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2023-07-16 16:16:41.644 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+2023-07-16 16:16:41.665 [info] > /bin/python3 -I ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+2023-07-16 16:16:41.673 [warning] [Error: Command failed: /bin/python -I /root/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py /root/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:409:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1121:16)
+	at Socket.<anonymous> (node:internal/child_process:479:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:757:14)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python -I /root/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py /root/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py'
+}
+2023-07-16 16:16:41.673 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2023-07-16 16:16:41.685 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+2023-07-16 16:16:41.732 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+2023-07-16 16:16:41.755 [warning] [Error: Command failed: /usr/bin/python -I /root/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py /root/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:409:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1121:16)
+	at Socket.<anonymous> (node:internal/child_process:479:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:757:14)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /root/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py /root/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py'
+}
+2023-07-16 16:16:41.756 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2023-07-16 16:16:41.771 [info] > /usr/bin/python ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+2023-07-16 16:16:41.815 [info] > /usr/bin/python3 -I ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+2023-07-16 16:16:41.920 [info] Python interpreter path: /bin/python3
+2023-07-16 16:16:42.006 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-16 16:16:43.952 [info] Starting Pylance language server.
+2023-07-16 16:17:10.558 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/503b3ab5/CWQU.py
+2023-07-16 16:17:25.135 [info] Send text to terminal: /bin/python3 /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/5-main.py
+2023-07-16 16:17:38.856 [info] Discover tests for workspace name: 0x0C-python-almost_a_circle - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/5-main.py
+2023-07-16 16:28:41.102 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/tkPS.py
+2023-07-16 16:28:44.370 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/tkPS.py
+2023-07-16 16:28:50.289 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/tkPS.py
+2023-07-16 16:28:53.378 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/tkPS.py
+2023-07-16 16:28:57.149 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/tkPS.py
+2023-07-16 16:30:34.353 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/5pab.py
+2023-07-16 16:30:57.322 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/crwA.py
+2023-07-16 16:35:44.585 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/-7913aa22/4Hp3.py
+2023-07-16 16:35:54.168 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/-7913aa22/4Hp3.py
+2023-07-16 16:36:29.022 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/-7913aa22/GZpL.py
+2023-07-16 16:37:22.194 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/yX5e.py
+2023-07-16 16:37:26.093 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/yX5e.py
+2023-07-16 16:37:27.277 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/yX5e.py
+2023-07-16 16:37:47.374 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/rjTB.py
+2023-07-16 16:37:52.192 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/rjTB.py
+2023-07-16 16:38:37.722 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/Mj2J.py
+2023-07-16 16:39:05.353 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:08.585 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:15.111 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:24.041 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:28.342 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:30.726 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:32.672 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:35.615 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:38.280 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:41.569 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:42.693 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/4VJm.py
+2023-07-16 16:39:56.769 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/ozoi.py
+2023-07-16 16:40:04.917 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/ozoi.py
+2023-07-16 16:40:17.580 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/iXxz.py
+2023-07-16 16:40:20.624 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/iXxz.py
+2023-07-16 16:40:26.952 [info] Discover tests for workspace name: undefined - uri: /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/alx-higher_level_programming/User/History/3b59359c/iXxz.py

@@ -1,0 +1,28 @@
+2023-07-16 16:16:43.918 [info] [Info  - 4:16:43 PM] (8553) Pylance language server 2023.7.20 (pyright 74d8f3c4) starting
+2023-07-16 16:16:43.918 [info] [Info  - 4:16:43 PM] (8553) Server root directory: /root/.vscode/extensions/ms-python.vscode-pylance-2023.7.20/dist
+2023-07-16 16:16:43.918 [info] [Info  - 4:16:43 PM] (8553) Starting service instance "0x0C-python-almost_a_circle"
+2023-07-16 16:16:43.998 [info] [Info  - 4:16:43 PM] (8553) Setting pythonPath for service "0x0C-python-almost_a_circle": "/bin/python3"
+2023-07-16 16:16:44.004 [info] [Warn  - 4:16:44 PM] (8553) stubPath /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle/typings is not a valid directory.
+2023-07-16 16:16:44.041 [info] [Info  - 4:16:44 PM] (8553) Assuming Python version 3.8
+2023-07-16 16:16:44.294 [info] [Info  - 4:16:44 PM] (8553) Found 13 source files
+2023-07-16 16:16:45.243 [info] [Info  - 4:16:45 PM] (8553) Background analysis(1) root directory: /root/.vscode/extensions/ms-python.vscode-pylance-2023.7.20/dist
+2023-07-16 16:16:45.248 [info] [Info  - 4:16:45 PM] (8553) Background analysis(1) started
+2023-07-16 16:16:45.724 [info] [Info  - 4:16:45 PM] (8553) Indexer background runner(2) root directory: /root/.vscode/extensions/ms-python.vscode-pylance-2023.7.20/dist (index)
+2023-07-16 16:16:45.725 [info] [Info  - 4:16:45 PM] (8553) Indexing(2) started
+2023-07-16 16:16:47.289 [info] [Info  - 4:16:47 PM] (8553) scanned(2) 265 files over 1 exec env
+2023-07-16 16:16:50.036 [info] [Info  - 4:16:50 PM] (8553) [IDX(2)] Long operation: index execution environment /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle (2551ms)
+2023-07-16 16:16:50.054 [info] [Info  - 4:16:50 PM] (8553) [IDX(2)] Long operation: index packages /home/brian/alx-higher_level_programming/0x0C-python-almost_a_circle (2642ms)
+2023-07-16 16:16:50.054 [info] [Info  - 4:16:50 PM] (8553) indexed(2) 147 files over 1 exec env
+2023-07-16 16:16:50.074 [info] [Info  - 4:16:50 PM] (8553) Indexing finished(2).
+2023-07-16 16:17:11.020 [info] [Info  - 4:17:11 PM] (8553) Found 14 source files
+2023-07-16 16:28:41.214 [info] [Info  - 4:28:41 PM] (8553) Found 15 source files
+2023-07-16 16:30:34.462 [info] [Info  - 4:30:34 PM] (8553) Found 16 source files
+2023-07-16 16:30:57.394 [info] [Info  - 4:30:57 PM] (8553) Found 17 source files
+2023-07-16 16:35:44.682 [info] [Info  - 4:35:44 PM] (8553) Found 18 source files
+2023-07-16 16:36:29.119 [info] [Info  - 4:36:29 PM] (8553) Found 19 source files
+2023-07-16 16:37:22.298 [info] [Info  - 4:37:22 PM] (8553) Found 20 source files
+2023-07-16 16:37:47.492 [info] [Info  - 4:37:47 PM] (8553) Found 21 source files
+2023-07-16 16:38:37.806 [info] [Info  - 4:38:37 PM] (8553) Found 22 source files
+2023-07-16 16:39:05.440 [info] [Info  - 4:39:05 PM] (8553) Found 23 source files
+2023-07-16 16:39:56.888 [info] [Info  - 4:39:56 PM] (8553) Found 24 source files
+2023-07-16 16:40:17.640 [info] [Info  - 4:40:17 PM] (8553) Found 25 source files
