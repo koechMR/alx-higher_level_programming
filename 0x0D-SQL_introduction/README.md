@@ -1,0 +1,2 @@
+This is a readme file for 0x0D-SQL_introduction.
+SQL is a beginner's guide to Structured Query Language (SQL), a powerful language used to interact with databases. This introduction covers the fundamental concepts of databases, tables, and queries. It explains how SQL enables us to create, manipulate, and retrieve data from databases using commands like SELECT, INSERT, UPDATE, and DELETE. By learning SQL, individuals gain the ability to organize and manage data efficiently, making it an essential skill for anyone working with data-driven applications or databases.
