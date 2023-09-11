@@ -1,12 +1,12 @@
 #!/usr/bin/node
 console.log(factorial(Number(process.argv[2])));
 
-function factorial (n) {
-  if (n < 0) {
+function factorial (f) {
+  if (f < 0) {
     return (-1);
   }
-  if (n === 0 || isNaN(n)) {
+  if (f === 0 || isNaN(f)) {
     return (1);
   }
-  return (n * factorial(n - 1));
+  return (f * factorial(f - 1));
 }
