@@ -1,4 +1,4 @@
-0x13-javascript_objects_scopes_closures, this project is for objects 
+0x13-javascript_objects_scopes_closures
 General
 Why JavaScript programming is amazing
 How to create an object in JavaScript
