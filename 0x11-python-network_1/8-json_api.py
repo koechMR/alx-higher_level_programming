@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""script that sends a POST request"""
+"""script that sends a POST request new"""
 
 import requests
 from sys import argv
