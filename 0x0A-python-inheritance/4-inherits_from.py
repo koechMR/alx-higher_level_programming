@@ -3,7 +3,7 @@
 
 
 def inherits_from(obj, a_class):
-    """checks if an object has inherit
+    """checks if an object
 
 return:
 if obj inherit instance of a class - true
